@@ -1,5 +1,6 @@
 const product = require("../../model/productModel/product");
 const productController = {};
+
 productController.addProduct = (req, res) => {
   //  reciving a  data from the request and assigning all data  to a variable
   const body = req.body;
@@ -20,7 +21,7 @@ productController.getById = (req, res) => {
   // reciving  a id from the params
   const id = req.params.id;
   product
-    .findOne({ id: id })
+    .findOne({ _id: id })
     .then((result) => {
       res.json(result);
     })
@@ -35,7 +36,7 @@ productController.deleteById = (req, res) => {
   // reciving  a id from the params
   const id = req.params.id;
   product
-    .findOneAndDelete({ id: id })
+    .findOneAndDelete({ _id: id })
     .then((result) => {
       res.json(result);
     })

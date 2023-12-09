@@ -2,23 +2,19 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const productSchema = new Schema({
   // id, product name, product category, image url , product description
-  id: {
-    type: String,
-    required: [true, " product id is required"],
-  },
-  product_name: {
+  productName: {
     type: String,
     required: [true, "product name is required"],
   },
-  product_category: {
+  productCategory: {
     type: String,
     required: [true, "product category is required"],
   },
-  image_url: {
+  imageUrl: {
     type: String,
     required: [true, "image_url is required"],
   },
-  product_description: {
+  productDescription: {
     type: String,
     required: [true, "product_description is required"],
   },
