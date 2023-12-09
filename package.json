@@ -6,8 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "prepare": "husky install",
-    "prettier": "npx prettier --write .",
-    "test": "exit"
+    "prettier": "npx prettier --write ."
   },
   "keywords": [],
   "author": "",
