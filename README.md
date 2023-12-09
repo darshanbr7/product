@@ -13,6 +13,15 @@
 
 4. Create an api to delete a product by id
 
+## packages used
+
+1.nodejs
+2.expressjs
+3.mongoose
+4.husky & prettier
+
+husky and prettier are used as a best practice to keep clean code
+
 ## Evidences
 
 **Create product**
