@@ -15,12 +15,25 @@
 
 ## packages used
 
-1.nodejs
-2.expressjs
-3.mongoose
-4.husky & prettier
+- Nodejs
+- Expressjs
+- Mongoose
+- husky & prettier
 
 husky and prettier are used as a best practice to keep clean code
+
+## How to test application
+
+use the below endpoint deployed in vercel
+
+endpoint : https://product-ten-teal.vercel.app/api/parameters
+
+parameters can be as below:
+
+- /add_product (https://product-ten-teal.vercel.app/api/add_product)
+- /get_product/:id (https://product-ten-teal.vercel.app/api/get_product/:id)
+- /all_products (https://product-ten-teal.vercel.app/api/all_products)
+- /delete_product/:id (https://product-ten-teal.vercel.app/api/delete_product/:id)
 
 ## Evidences
 
